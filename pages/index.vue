@@ -1,10 +1,10 @@
 <template>
   <div>
-    <h1 class="text-6xl font-bold text-center">
+    <h1 class="text-6xl font-semibold text-center pt-20">
       A Blog Built with Vue.js and TailwindCSS
     </h1>
 
-    <ul class="grid grid-cols-3 gap-8 mt-8">
+    <ul class="grid grid-cols-3 gap-8 mt-20">
       <PostPreview
         v-for="post in posts"
         :key="post.slug"
