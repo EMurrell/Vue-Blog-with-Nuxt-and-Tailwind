@@ -31,11 +31,10 @@ export default {
     '@nuxtjs/stylelint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    '@nuxt/image',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['@nuxt/content'],
+  modules: ['@nuxt/content', '@nuxt/image'],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
